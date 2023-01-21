@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page of Jeffrey</title>
+    <link rel="stylesheet" href="/HTML_Jeffrey/css/home.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <div class="home">
+                <a href="home.html">
+                    Home Page
+                </a>               
+            </div>
+            <div class="bio">
+                <a href="Jeffrey.html">
+                    Curriculum Vitae
+                </a> 
+            </div>
+            <div class="about">
+                <a href="Jeffrey.html">
+                    About 
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+    <div class="container">
+        <h1> Heading 1</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum eum ipsam delectus error cupiditate officiis quod ex minima consequuntur ad! Repellat perspiciatis aut voluptate eaque cum totam itaque veritatis consectetur.</p>
+       </div>
+       <!--sample how to make a lot of ul>li*3 to make auto make 3 li-->
+       <ul class="list-container" id="list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+       </ul>
+    
+       <ul class="list-container">
+        <li><span>Item 4</span></li>
+        <li><span>Item 5</span></li>
+        <li><span>Item 6</span></li>
+       </ul>
+    
+       <!--This is for order list-->
+       <ol class="ordered-list"> 
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+       </ol>
+       <p><span>
+        This is para 1
+       </span>
+       <!--this is for break the para in to line with self closing tag-->
+       <br />
+       <span>
+        This is para 2
+       </span></p>
+      
+       <br />
+       <p class="paragraph"> This sample of pseudo-element</p>
+    
+    
+    
+    
+    
+    
+       <!--a:blank-->
+       <a href="about.html">open google</a>
+    
+       <br/>
+       <!--make sure provide / for closing in code-->
+       <img data-size="400x400" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="random image" />
+    
+       <!--script is for java script-->
+       <!-- <script src="index.js"></script> -->
+       <br />
+       <!--action will be api.register if the server is on the same domane. action is the destination of data-->
+       <form action="" method="post">
+        <label for="firstname">Enter First Name</label>
+        <input aria-label="Enter First Name" class="form-input" type="text" name="firstname" autocomplete="off" placeholder="enter your first name" id="" />
+       <br />
+       <label for="email">Enter Email Address:</label>
+       <input type="email" name="email" placeholder="sample@mail.com" id="" />
+       <br/>
+      
+       <!-- need to add password and date to practice how to make label with input -->
+    
+       <label for="password">Password</label>
+       <input type="password" name="password" id="" pattern="[a-z0-5]{8,}" required />
+       <br />
+    
+       <label for="date">Birth Date</label>
+       <input type="date" name="date" id="">
+       <br />
+    
+       <label for="number">Type Your Age (Optional Only)</label>
+       <input type="number" name="number" min="6" max="100" placeholder="Age 6 above" id="">
+       <br />
+    
+       <label for="city">Location</label>
+        <select name="city" id="">
+        <option value="">Select City</option>
+        <option value="london">London</option>
+        <option value="lancaster">Lancaster</option>
+        <option value="other">Other City</option>
+    </select>
+    <br />
+    
+    <label for="choice">Choice</label>
+    <br />
+    <input type="radio" name="choice" id="" value="choice 1" />Choice 1
+    <br />
+    <input type="radio" name="choice" id="" value="choice 2" />Choice 2
+    <br />
+    
+    <label for="multiple">Select atleast one</label> 
+    <br />
+    <input type="checkbox" name="multiple" id="" value="choice 1" /> Choice 1
+    <br />
+    <input type="checkbox" name="multiple" id="" value="choice 2" /> Choice 2
+    <br />
+    <input type="checkbox" name="multiple" id="" value="choice 3" /> Choice 3
+    
+    
+    
+      <br />
+       <button aria-role="button" type="submit" style="cursor: pointer;">Sign Up</button>
+       <br />
+    
+      
+       </form>
+    
+       <!--div.box*3-->
+    <div class="parent">
+        <div class="box"></div>
+        <div class="box grid-col-span-2"></div>
+        <div class="box"></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <br />
+    <div class="box500">
+    </div>
+    <div class="box100">
+        <div class="internalbox">
+        </div>
+    </div>
+       
+    </main>
+    
+</body>
+</html>
